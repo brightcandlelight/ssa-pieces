@@ -1,0 +1,7 @@
+[ssa]
+name=SSA Fedora $releasever - $basearch
+failovermethod=priority
+baseurl=http://192.168.21.204/fedora/
+enabled=1
+# Make sure you disable the official .repo files with enabled=0
+gpgcheck=0
